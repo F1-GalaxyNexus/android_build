@@ -1236,7 +1236,7 @@ name := $(TARGET_PRODUCT)
 ifeq ($(TARGET_BUILD_TYPE),debug)
   name := $(name)_debug
 endif
-name := F1-GalaxyAOSP-$(name)-$(FILE_NAME_TAG)
+name := F1-GalaxyNexus-$(name)-$(FILE_NAME_TAG)
 
 INTERNAL_OTA_PACKAGE_TARGET := $(PRODUCT_OUT)/$(name).zip
 
